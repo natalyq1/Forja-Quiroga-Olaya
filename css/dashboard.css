@@ -1,0 +1,124 @@
+/*font-family: 'Poppins', sans-serif;--300--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Poppins', sans-serif;--400--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*rojo #A40101
+verde #2CA3AB
+gris #C4C4C4 grisoscuro #312e2e
+naranja #F3610E
+azul #1D1B45 */
+
+*{box-sizing: border-box;}
+
+:root{
+    --rojo-color:#A40101;
+    --verde-color: #2CA3AB;
+    --gris-color: #C4C4C4;
+    --grisclaro-color: #312e2e;
+    --naranja-color: #F3610E;
+    --azul-color: #1D1B45;
+    --blanco-color:#ffffff;
+}
+.main{font-family: 'Poppins', sans-serif;--300;}
+
+
+
+.left{
+    background:var(--azul-color);
+    height: fit-content;
+    display: flex;
+    flex-direction:column;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 250px;
+    padding-top: 250px;
+    flex-basis: 20%;
+}
+
+.contenedor{display: flex;
+flex-direction: column;}
+
+
+#todo{width:fit-content;
+    display:flex;
+margin-top: 1px;
+}
+
+.right{
+    background: rgba(225, 225,225, 0.5);
+    width: 1200px;
+    height: 781px;
+    flex-basis: 80%;
+    text-align: center;}
+
+    .guerrero{
+        float: right;;
+background-repeat: no-repeat;
+justify-content: flex-end;
+align-items: flex-end;
+padding-right: 10px;
+opacity: 60%;
+transform:rotate:(10deg);}
+
+.bnn{margin-top: 15px;}
+
+button{margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+background-color: var(--gris-color);
+border: 2px solid var(--naranja-color);
+border-radius: 7px;
+font-size: 14pt;
+font-weight: bold;
+padding: 5px;
+cursor: pointer;
+}
+
+.usuario{background-color: var(--blanco-color);
+   border: 2px solid var(--naranja-color);
+border-radius: 50%; 
+margin: 8px;
+width: 30px; 
+float: right;
+}
+.name{border: none;
+    width:220px ;
+    height: 60px;
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: flex-end;
+;}
+
+.azul{border:none;
+width:fit-content;
+background-color: var(--azul-color);
+border: 3px solid var(--verde-color);
+margin: 4px;
+;}
+
+h1{text-transform: uppercase;
+color: var(--naranja-color);
+font-size: xx-large;
+padding-top: 250px;
+}
+
+.centro{display:flex;
+flex-direction: column;
+align-content: space-between;
+align-items: center;}
+
+.arriba{float:right ;padding-right: 15px;}
+
+.botoazul{align-items: center;
+display:flex ;
+align-items: baseline;
+}
+input{border-top: none;
+border-left: none;
+border-right: none;
+width: 250px;
+background-color: rgba(225, 225,225, 0.1) ;}

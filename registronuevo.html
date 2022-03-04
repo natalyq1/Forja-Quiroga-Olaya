@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registros</title>
+    <link rel="stylesheet" type="text/css" href="./css/registroesti.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+</head>
+<!--accion de formulario-->
+<form name="Form" action="index.html" method="post" target="_blank">
+
+        <div class="header">
+                <img src="./img/0. logoforja.png">
+        <section class="arriba">
+        <div class="contenedor">
+    <button><img src="./img/homeicon.png" width="20px"></button>
+</div>
+   
+<div class="contenedor">
+    <button><img src="./img/poweroff.png" width="20px"></button>
+</div>
+</section>
+        </div>
+<body>
+<img src="./img/1. linea.png">
+
+<div class="h8">REGISTRO USUARIO NUEVO</div>
+
+<div class="container">
+<div class="gris">
+
+<!--fecha-->
+<label for="date">
+            <input type="date" id="date" name="date" min="1600-01-01" max="2022-01-01">
+            </label>
+<!--no. registro-->
+<label for="number">
+            <input type="number" id="number" name="number" maxlength="10" placeholder="N. de registro">
+        </label>
+<div class="verde">
+            <img class="ver" src="./img/16. man-user.svg" width="20px">
+<h9>DATOS DEL PACIENTE</h9></div>
+<!--nombre-->
+<label for="Nombre"></label>
+        <input name="Nombre" id="Nombre" type="text" placeholder="Nombres">
+<!--apellido-->
+        <label for="Apellido"></label>
+        <input name="Apellido" id="Apellido" type="text" placeholder="Apellidos">
+
+<!--tipo de documento-->
+<label for="tipo de documento"></label>
+        <select name="tipo de documento" id="tipo de documento">
+        <option value="0" selected>Tipo de documento</option>
+        <option value="1" >Cédula de ciudadanía</option>
+        <option value="2" >Pasaporte</option>
+        <option value="3" >Documento de identidad</option>
+        </select> 
+<!--no. identificacion-->
+<label for="number"></label>
+        <input type="number" id="number" name="number" maxlength="10" placeholder="N. de identificación">
+        
+<!--fecha doc.-->
+<label for="date"></label>
+            <input type="date" id="date" name="date" min="1600-01-01" max="2022-01-01">
+<!--edad-->
+<label for="edad"></label>
+            <input type="edad" id="edad" name="edad" maxlength="10" placeholder="Edad">
+            
+
+<div class="verde">
+<img class="ver" src="./img/17. geo.svg" width="20px">
+<h9>INFORMACIÓN DE CONTACTO</h9>
+</div>
+<!--dpt. residencia-->
+<label for="ciudad"></label>
+<select name="ciudad" id="ciudad">
+<option value="0" selected>Departamento de residencia</option>
+<option value="1" >Bogotá</option>
+<option value="2" >Medellín</option>
+<option value="3" >Bucaramanga</option>
+</select> 
+
+<!--municipio residencia-->
+<label for="ciudad"></label>
+<select name="ciudad" id="ciudad">
+<option value="0" selected>Municipio de residencia</option>
+<option value="1" >Bogotá</option>
+<option value="2" >Medellín</option>
+<option value="3" >Bucaramanga</option>
+</select> 
+
+<!--direccion-->
+<label for="number"></label>
+        <input type="text" type="number" id="number" name="number" placeholder="Dirección">
+
+<!--correo-->
+<label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Correo">
+           
+<!--telefono fijo-->
+<label for="telefono"></label>
+<input name="telefono" id="telefono"
+type="number" maxlength="7" placeholder="Teléfono fijo">
+
+<!--celular-->
+<label for="telefono"></label>
+<input name="telefono" id="telefono"
+type="number" maxlength="10" placeholder="Celular">
+
+<div class="verde">
+<img class="ver" src="./img/18. latido-del-corazon.svg" width="20px">
+<h9>ESTADO DE SALUD</h9>
+</div>
+<!--preexistencias-->
+<label for="preexistencias"></label>
+<select name="preexistencias" id="preexistencias">
+<option value="0" selected>Preexistencias</option>
+<option value="1" >Diabetes</option>
+<option value="2" >Obesidad</option>
+<option value="3" >Comorbolidad</option>
+</select> 
+
+<!--discapacidad-->
+<label for="discapacidad"></label>
+<select name="discapacidad" id="discapacidad">
+<option value="0" selected>Discapacidad</option>
+<option value="1" >Visual</option>
+<option value="2" >Movilidad</option>
+<option value="3" >Física</option>
+</select> 
+
+<!--alergias-->
+<label for="alergias"></label>
+        <input name="alergias" id="alergias" type="text" placeholder="Alergias">
+
+<p>¿El paciente se ha realizado la prueba del covid con anterioridad y esta ha salido positiva?</p>
+
+<!--check box si o no-->
+<label form="ecivil"></label>
+si<input name="ecivil" id="ecivil"
+type="radio" >
+no<input name="ecivil" id="ecivil"
+type="radio">
+
+
+<p>¿El paciente ha tenido un contacto estrecho o cercano con una persona confirmada o sospechosa de COVID-19 en los últimos 14 días?</p>
+
+<!--check box si o no-->
+<label form="ecivil"></label>
+si<input name="ecivil" id="ecivil"
+type="radio" >
+no<input name="ecivil" id="ecivil"
+type="radio">
+
+</div class="gris">
+<!--boton-->
+<button class="guarda" type="submit">Guardar</button>
+
+</div>
+
+
+</body>
+<div class="footer">
+        © 2021 forja empresas
+        </footer>

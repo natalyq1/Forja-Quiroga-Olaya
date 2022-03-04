@@ -1,0 +1,73 @@
+/*font-family: 'Poppins', sans-serif;--300--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Poppins', sans-serif;--400--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*rojo #A40101
+verde #2CA3AB
+gris #C4C4C4 grisoscuro #312e2e
+naranja #F3610E
+azul #1D1B45 */
+
+.h1{text-align: center; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 24pt; 
+    text-decoration-line:underline;
+    text-transform: uppercase;
+margin-bottom: 30px;}
+
+.agregar{background-color: #f3610e;color: #ffffff;font-family: 'Poppins', sans-serif;font-size: 10pt;
+    align-content: center;margin: 3px 2px;padding-bottom: 3px;width: auto;height: fit-content;}
+.agre{vertical-align: middle;margin-left: 3px;}
+
+.contenedor{background-color: #f3610e;width: auto;height: auto;}
+
+.look{display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin: 20px 200px;
+    padding: 30px;
+align-items: unset;}
+
+.buscar{display: flex;
+    align-items:unset;}
+
+img{color: #ffffff;}
+
+.linea{background-color: #f3610e;}
+
+table{width: 1600px;border-width: 1px;border-style: solid;border-color: rgb(104, 229, 245);
+    border-collapse: collapse;font-family: 'Poppins', sans-serif;font-size: 16pt;
+margin: 10px auto;}
+    /*bordes:ancho estilo y color--collapse para q se junte algunos bordes, mas el de abajo*/
+    
+    table th{background-color: #1D1B45;;color: rgb(255, 255, 255);height: 65px;border: 3px solid rgb(104, 229, 245);box-shadow: black;}
+    table td{background-color:#C4C4C4 ;text-align: center;border: 3px solid rgb(104, 229, 245); }
+
+.acciones{width: 10px;height: 10px;padding-right: 10px;padding-left: 10px}
+
+    .edita{background:#2CA3AB;box-sizing:calc(20px 20px);margin: 8px 5px;border-radius: 5px;}
+    .elimina{background:#A40101;box-sizing:calc(20px 20px);margin: 8px 5px;border-radius: 5px;}
+
+    .header{background:#312e2e;width:1350px;
+        display: flex;
+        flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px auto;
+    padding: 30px;
+    }
+.footer{background-color: black; color: #ffffff;text-align: center;padding-top: 10px
+    ;width: 1350px; height: 50px;border-bottom-color: #ffffff;border-bottom-width: 1px;
+    margin: 20px auto;margin-top: 40px;}
+
+.naranjanegro{
+    background-image: url(./img/docfondo.jpeg);
+    backface-visibility: unset;
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: cover;size}
+ 
+ .linea{width:500px ;height: 50px;mix-blend-mode:color-burn;
+    margin-left: 1300px;}

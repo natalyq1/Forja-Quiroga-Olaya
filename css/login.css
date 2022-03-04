@@ -1,0 +1,92 @@
+/*font-family: 'Poppins', sans-serif;--300--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Poppins', sans-serif;--400--*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*rojo #A40101
+verde #2CA3AB
+gris #C4C4C4 grisoscuro #312e2e
+naranja #F3610E
+azul #1D1B45 */
+
+*{box-sizing: border-box;}
+
+:root{
+    --rojo-color:#A40101;
+    --verde-color: #2CA3AB;
+    --gris-color: #C4C4C4;
+    --grisclaro-color: #312e2e;
+    --naranja-color: #F3610E;
+    --azul-color: #1D1B45;
+    --blanco-color:#ffffff;
+}
+body{
+    background-image: url(../img/10.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;--300;
+}
+#caja{width:500px;
+height: 400px;
+margin-left: 630px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+/*border: 3px solid var(--naranja-color);*/
+}
+.verde{background-color: rgba(44, 163, 171, 0.6);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    height: 300px;
+}
+
+.blanco{background-color: var(--blanco-color);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    height: 310px;
+display: flex;
+flex-direction: column;
+}
+.logo{margin:25px 20px 10px 20px;
+    width: 250px;}
+
+.volver{margin-top: 220px;
+    margin-left: 970px;
+margin-bottom: 5px;
+display: flex;
+background-color: var(--azul-color);
+    color: var(--blanco-color);
+    border-radius: 7px;
+    border: 1px solid var(--verde-color);
+    padding:2px 10px ;
+}
+.boxy{
+    width:150px;
+    border: 1px solid var(--verde-color);
+    border-radius: 9px;
+    margin-left: 125px;
+    background-color: rgba(44, 163, 171, 0.4);
+}
+h4{margin:none;
+padding: none}
+
+.olvida{background-color: var(--blanco-color);
+    border: none;
+    text-decoration: underline;
+    padding: 7px;
+}
+.ingresar{
+    background-color: var(--naranja-color);
+    color: var(--blanco-color);
+    border-radius: 7px;
+    border: 1px solid var(--verde-color);
+    width:fit-content;
+    padding: 2px 12px;
+    align-items: center;
+    margin-left: 165px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}

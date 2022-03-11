@@ -24,10 +24,10 @@ body{
     background-image: url(../img/10.png);
     background-repeat: no-repeat;
     text-align: center;
-    font-family: 'Poppins', sans-serif;--300;
+    font-family: 'Poppins', sans-serif ;
 }
 #caja{width:500px;
-height: 400px;
+height: 550px;
 margin-left: 630px;
 display: flex;
 align-items: center;
@@ -39,23 +39,28 @@ justify-content: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 400px;
-    height: 300px;
+    height: 250px;
+    /*border: 2px solid white;*/
+    margin: 0px 15px;
 }
+a:link{text-decoration: none;}
 
 .blanco{background-color: var(--blanco-color);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 400px;
-    height: 310px;
+    height: 290px;
 display: flex;
 flex-direction: column;
+/*border: 2px solid black*/
 }
 .logo{margin:25px 20px 10px 20px;
+    padding:30px 0px 0px 0px;
     width: 250px;}
 
-.volver{margin-top: 220px;
-    margin-left: 970px;
-margin-bottom: 5px;
+.volver{margin-top: 100px;
+    margin-left: 940px;
+margin-bottom: 10px;
 display: flex;
 background-color: var(--azul-color);
     color: var(--blanco-color);
@@ -64,29 +69,34 @@ background-color: var(--azul-color);
     padding:2px 10px ;
 }
 .boxy{
-    width:150px;
+    width:200px;
     border: 1px solid var(--verde-color);
     border-radius: 9px;
-    margin-left: 125px;
+    margin-left: 105px;
+    margin: none;
     background-color: rgba(44, 163, 171, 0.4);
 }
 h4{margin:none;
-padding: none}
+padding: none;
+text-align: center;
+}
 
 .olvida{background-color: var(--blanco-color);
     border: none;
     text-decoration: underline;
     padding: 7px;
+    margin:8px;
 }
 .ingresar{
     background-color: var(--naranja-color);
     color: var(--blanco-color);
     border-radius: 7px;
-    border: 1px solid var(--verde-color);
+    border: 2px solid var(--verde-color);
     width:fit-content;
-    padding: 2px 12px;
+    box-shadow: 1px 1px 1px var(--grisclaro-color);
+    padding: 7px 28px;
     align-items: center;
-    margin-left: 165px;
+    margin-left: 140px;
     margin-top:5px;
     margin-bottom: 5px;
 }

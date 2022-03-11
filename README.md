@@ -1,1 +1,0 @@
-# Forja-Quiroga-Olaya

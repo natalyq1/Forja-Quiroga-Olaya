@@ -53,22 +53,23 @@ header, main, body{font-family: 'Poppins', sans-serif;}
     color: var(--blanco-color);
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 10px 0px 0px 200px;
+    align-items:center;
+    margin: 10px 0px 0px 290px;
     border-radius: 20px;
     padding: 0px 6px;
+    border: 2px solid red;
     }
 .container{background-image: url(../img/1.\ linea.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position: bottom;
-    width:100%;
-border: 2px solid green;
+    width:2000px;
+/*border: 2px solid green;*/
     display: flex;
 flex-direction: row;
 flex-basis: 70%;
-margin-left: 120px;
-padding-left: 100px;
+margin-left: 30px;
+padding-left: 0px;
 padding-right: 0px;
 margin-right: 0px;
 }
@@ -76,8 +77,12 @@ margin-right: 0px;
 flex-direction: row;
 align-content:space-around;
 align-items: flex-start;
-margin-bottom: 60px;
-border: ;}
+margin-bottom: 50px;
+
+/*border: 2px solid blue ;*/
+ width:1050px;
+padding-left: none; 
+margin-left: none; }
 .gray{
     color: rgba(49, 46, 46, 0.7);
 }

@@ -9,6 +9,7 @@ gris #C4C4C4 grisoscuro #312e2e
 naranja #F3610E
 azul #1D1B45 */
 
+/*alinear bordes de las cajas para q no se salga la informacion*/
 *{box-sizing: border-box;}
 
 :root{

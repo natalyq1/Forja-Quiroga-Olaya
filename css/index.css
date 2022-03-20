@@ -20,6 +20,7 @@ azul #1D1B45 */
     --azul-color: #1D1B45;
     --blanco-color:#ffffff;
 }
+a:link{ text-decoration: none;}
 header, main, body{font-family: 'Poppins', sans-serif;}
 .logo{
     margin: 20px 10px 10px 10px;
@@ -149,7 +150,7 @@ padding-left: 270px;
 .fondo{background-image: url(../img/grisaceo.png);
     background-size: cover;
     max-width: 100%;
-    height: 450px;
+    height: 880px;
     margin: none;
 }
 .flechado{
